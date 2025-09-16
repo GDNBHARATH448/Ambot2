@@ -34,17 +34,17 @@
     },
     "OWNER_ID": {
       "description": "The user id of user whom you would like to add as OWNER.from @Sophia_x_MusicBot on Telegram.",
-      "value": "7137269276",
+      "value": "",
       "required": true
     },
    "SUPPORT_CHANNEL": {
       "description": "Add channel link",
-      "value": "https://t.me/SuperBanSBots",
+      "value": "",
       "required": true
     },
       "SUPPORT_CHAT": {
       "description": "Add Chat group & support group Link",
-      "value": "https://t.me/+jCS-YsVBVEE3NjQ1",
+      "value": "",
       "required": true
     },
     "STRING_SESSION": {
@@ -64,7 +64,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/AbhiModszYT/AnieXEricaMusic",
+      "value": "https://github.com/GDNBHARATH448/likimusicbot-",
       "required": false
     },
     "UPSTREAM_BRANCH": {
@@ -94,7 +94,7 @@
     },
     "LOGGER_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-      "value": "-1001971806089",
+      "value": "",
       "required": true
     }
   },
