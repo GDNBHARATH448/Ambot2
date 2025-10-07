@@ -27,7 +27,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY","HK543fklqxgt66hvxf")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/GDNBHARATH448/likimusicbot-",
+    "https://github.com/GDNBHARATH448/Ambot2",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -89,5 +89,6 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
