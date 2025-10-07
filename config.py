@@ -6,8 +6,8 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "6435225"))
-API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
+API_ID = int(getenv("API_ID", "26715173"))
+API_HASH = getenv("API_HASH", "e208f4ac326676f273054f2095211fea")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
@@ -15,15 +15,15 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1001971806089))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002739413996))
 
-OWNER_ID = int(getenv("OWNER_ID", 8106551502))
+OWNER_ID = int(getenv("OWNER_ID", 7946875913))
 
-OWNER = int(getenv("OWNER", 8106551502))
+OWNER = int(getenv("OWNER", 7946875913))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY","HK543fklqxgt66hvxf")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY","HRKU-AAAV2KVj0WyB1GMAnKKFO9bs55gPMdSt2zS_qedqJVkQ_____wCYi4woZRIy")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -33,8 +33,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SuperBanSBots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AM_YTSUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/IikiBots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/kannada_chatting0")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
@@ -89,6 +89,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
